@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import LogoManu from "./components/LogoManu/index.js";
+import HeaderManu from "./components/HeaderManu";
+import ButtonManu from "./components/ButtonManu/";
+import FooterMana from "./components/FooterManu";
+import LinkManu from "./components/LinkManu";
+import HighlightManu from "./components/HighlightManu";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <>
+      <HeaderManu>
+        <LogoManu />
+        <ButtonManu>Novo Vídeo</ButtonManu>
+      </HeaderManu>
+      <FooterMana>
+        <LogoManu />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Site feito na <HighlightManu>#ImersãoReact</HighlightManu> da{" "}
+          <LinkManu href="https://alura.com.br">Alura.</LinkManu>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      </FooterMana>
+    </>
   );
 }
 
