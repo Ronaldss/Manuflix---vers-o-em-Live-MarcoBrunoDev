@@ -134,9 +134,9 @@ body {
   font-size: 1px;
   min-width: 320px;
 }
-#root {
+/* #root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
+} */
