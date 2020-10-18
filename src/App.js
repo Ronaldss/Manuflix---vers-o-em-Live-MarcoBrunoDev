@@ -29,8 +29,9 @@ function App() {
           <DescriptionManu>
             Lorem Ipsum é simplesmente uma simulação de texto da indústria.
           </DescriptionManu>
-          <ThumbManu src={dev} alt="Thumb da minha tela" />
         </Text>
+
+        <ThumbManu src={dev} alt="Thumb da minha tela" />
       </BannerManu>
       <FooterMana>
         <LogoManu />
