@@ -5,6 +5,7 @@ import ButtonManu from "./components/ButtonManu/";
 import FooterMana from "./components/FooterManu";
 import LinkManu from "./components/LinkManu";
 import HighlightManu from "./components/HighlightManu";
+import LogoImersao from "./components/LogoImersao/";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <p>
           Site feito na <HighlightManu>#ImersãoReact</HighlightManu> da{" "}
           <LinkManu href="https://alura.com.br">Alura.</LinkManu>
+          <LogoImersao />
         </p>
       </FooterMana>
     </>
