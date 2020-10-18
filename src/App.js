@@ -1,13 +1,13 @@
 import React from "react";
 import LogoManu from "./components/LogoManu/index.js";
-import HeaderManu from "./components/HeaderManu";
+import { HeaderManu, Wrapper } from "./components/HeaderManu";
 import ButtonManu from "./components/ButtonManu/";
 import FooterMana from "./components/FooterManu";
 import LinkManu from "./components/LinkManu";
 import HighlightManu from "./components/HighlightManu";
 import LogoImersao from "./components/LogoImersao/";
 import TagManu from "./components/TagManu";
-import BannerManu from "./components/BannerManu";
+import { BannerManu, Text } from "./components/BannerManu";
 import TitleManu from "./components/TitleManu/";
 import DescriptionManu from "./components/DescriptionManu/index.js";
 import ThumbManu from "./components/ThumbManu/index.js";
@@ -17,16 +17,20 @@ function App() {
   return (
     <>
       <HeaderManu>
-        <LogoManu />
-        <ButtonManu>Novo Vídeo</ButtonManu>
+        <Wrapper>
+          <LogoManu />
+          <ButtonManu>Novo Vídeo</ButtonManu>
+        </Wrapper>
       </HeaderManu>
       <BannerManu>
-        <TagManu>Front End</TagManu>
-        <TitleManu>Title do vídeo</TitleManu>
-        <DescriptionManu>
-          Lorem Ipsum é simplesmente uma simulação de texto da indústria.
-        </DescriptionManu>
-        <ThumbManu src={dev} alt="Thumb da minha tela" />
+        <Text>
+          <TagManu>Front End</TagManu>
+          <TitleManu>Title do vídeo</TitleManu>
+          <DescriptionManu>
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria.
+          </DescriptionManu>
+          <ThumbManu src={dev} alt="Thumb da minha tela" />
+        </Text>
       </BannerManu>
       <FooterMana>
         <LogoManu />
