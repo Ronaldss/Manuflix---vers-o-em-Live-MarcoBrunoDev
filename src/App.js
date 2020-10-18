@@ -9,6 +9,7 @@ import LogoImersao from "./components/LogoImersao/";
 import TagManu from "./components/TagManu";
 import BannerManu from "./components/BannerManu";
 import TitleManu from "./components/TitleManu/";
+import DescriptionManu from "./components/DescriptionManu/index.js";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
       <BannerManu>
         <TagManu>Front End</TagManu>
         <TitleManu>Title do vídeo</TitleManu>
+        <DescriptionManu>
+          Lorem Ipsum é simplesmente uma simulação de texto da indústria
+          tipográfica e de impressos, e vem sendo utilizado desde o século XVI.
+        </DescriptionManu>
       </BannerManu>
       <FooterMana>
         <LogoManu />
