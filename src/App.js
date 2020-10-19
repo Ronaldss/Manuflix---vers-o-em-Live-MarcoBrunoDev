@@ -12,6 +12,7 @@ import TitleManu from "./components/TitleManu/";
 import DescriptionManu from "./components/DescriptionManu/index.js";
 import ThumbManu from "./components/ThumbManu/index.js";
 import dev from "./assests/img/dev.png";
+import avatarImg from "./assests/img/avatar.jpg";
 
 function App() {
   return (
@@ -31,7 +32,13 @@ function App() {
           </DescriptionManu>
         </Text>
 
-        <ThumbManu src={dev} alt="Thumb da minha tela" />
+        <ThumbManu
+          src={dev}
+          alt="Thumb da minha tela"
+          avatar={avatarImg}
+          channelName="Nome do canal"
+          time="00:02:00"
+        />
       </BannerManu>
       <FooterMana>
         <LogoManu />
