@@ -1,12 +1,14 @@
 import React from "react";
-import { Avatar, Thumb, WrapperThumb } from "./styles";
+import { Background, Avatar, Thumb, WrapperThumb } from "./styles";
 
 function ThumbManu({ src, alt, avatar, channelName, time }) {
   return (
-    <WrapperThumb>
-      <Thumb src={src} alt={alt} />
-      <Avatar src={avatar} alt={channelName} />
-    </WrapperThumb>
+    <Background>
+      <WrapperThumb>
+        <Thumb src={src} alt={alt} />
+        <Avatar src={avatar} alt={channelName} />
+      </WrapperThumb>
+    </Background>
   );
 }
 export default ThumbManu;

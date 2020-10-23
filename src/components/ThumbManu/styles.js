@@ -18,23 +18,47 @@ export const Thumb = styled.img`
 `;
 
 export const WrapperThumb = styled.figure`
-  --space: 10rem;
+  /* opacity: 0; */
   position: relative;
-  border-radius: 4px;
-  border: 4rem solid var(--color-frontend);
+  border: var(--border) solid var(--color-frontend);
   width: 640px;
   overflow: hidden;
   cursor: pointer;
   transition: transform 100ms linear;
 
   &:hover {
-    --move: calc(var(--space) * -1);
-    transform: translate(var(--move), var(--move));
+    transform: translate(var(--move-space), var(--move-space));
 
     & > ${Avatar} {
       transform: translateX(0);
       opacity: 1;
       transition: transform 100ms 150ms linear, opacity 300ms 100ms linear;
+    }
+  }
+`;
+export const Background = styled.div`
+  --space: 20rem;
+  --border: 4rem;
+  /* --move-border: calc(var(--space) * -1); */
+  --move-space: calc(var(--space) * -1);
+
+  position: relative;
+  background: var(--color-frontend);
+
+  &::before {
+    content: "";
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: var(--space);
+    height: var(--space);
+    background: red;
+    transform-origin: right top;
+    transition: transform 100ms linear;
+  }
+  &:hover {
+    &::before {
+      transform: rotate(45deg);
     }
   }
 `;
