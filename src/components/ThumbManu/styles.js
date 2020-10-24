@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+export const Channel = styled.h2``;
+
 export const Avatar = styled.img`
   position: absolute;
   top: var(--space);

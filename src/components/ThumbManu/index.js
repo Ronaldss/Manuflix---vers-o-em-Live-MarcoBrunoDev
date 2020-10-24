@@ -1,5 +1,5 @@
 import React from "react";
-import { Background, Avatar, Thumb, WrapperThumb } from "./styles";
+import { Background, Avatar, Thumb, WrapperThumb, Channel } from "./styles";
 
 function ThumbManu({ src, alt, avatar, channelName, time }) {
   return (

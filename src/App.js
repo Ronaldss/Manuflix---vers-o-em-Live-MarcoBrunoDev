@@ -26,9 +26,12 @@ function App() {
       <BannerManu>
         <Text>
           <TagManu>Tudo de História</TagManu>
-          <TitleManu>Title do vídeo</TitleManu>
+          <TitleManu>Os Hebreus e o monoteismo judáico</TitleManu>
           <DescriptionManu>
-            Lorem Ipsum é simplesmente uma simulação de texto da indústria.
+            Os antigos hebreus foram um povo semítico da região do Levante,
+            localizado no Oriente Médio. O etnônimo também foi utilizado a
+            partir do período romano para se referir aos judeus, um grupo étnico
+            e religioso de ascendência hebraica.
           </DescriptionManu>
         </Text>
 
