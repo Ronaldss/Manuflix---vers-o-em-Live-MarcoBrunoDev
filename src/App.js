@@ -25,7 +25,7 @@ function App() {
       </HeaderManu>
       <BannerManu>
         <Text>
-          <TagManu>Front End</TagManu>
+          <TagManu>Tudo de História</TagManu>
           <TitleManu>Title do vídeo</TitleManu>
           <DescriptionManu>
             Lorem Ipsum é simplesmente uma simulação de texto da indústria.
