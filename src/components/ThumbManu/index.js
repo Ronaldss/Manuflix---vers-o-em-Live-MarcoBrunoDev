@@ -1,4 +1,5 @@
 import React from "react";
+import AvatarManu from "../AvatarManu";
 import { Background, Avatar, Thumb, WrapperThumb, Channel } from "./styles";
 
 function ThumbManu({ src, alt, avatar, channelName, time }) {
@@ -6,7 +7,7 @@ function ThumbManu({ src, alt, avatar, channelName, time }) {
     <Background>
       <WrapperThumb>
         <Thumb src={src} alt={alt} />
-        <Avatar src={avatar} alt={channelName} />
+        <AvatarManu photo={avatar} channelName={channelName}></AvatarManu>
       </WrapperThumb>
     </Background>
   );

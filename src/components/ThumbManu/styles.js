@@ -1,22 +1,22 @@
 import styled from "styled-components";
+import { WrapperAvatar } from "../AvatarManu/styles";
 
-export const Channel = styled.h2``;
-
-export const Avatar = styled.img`
-  position: absolute;
-  top: var(--space);
-  left: var(--space);
-  width: 50rem;
-  height: 50rem;
-  border-radius: 50%;
-  border: 4rem solid var(--color-black-medium);
-  transform: translateX(calc((100% + var(--space)) * -1));
-  opacity: 0;
-  transition: transform 200ms linear, opacity 100ms linear;
-`;
+// export const Avatar = styled.img`
+//   position: absolute;
+//   top: var(--space);
+//   left: var(--space);
+//   width: 50rem;
+//   height: 50rem;
+//   border-radius: 50%;
+//   border: 4rem solid var(--color-black-medium);
+//   transform: translateX(calc((100% + var(--space)) * -1));
+//   opacity: 0;
+//   transition: transform 200ms linear, opacity 100ms linear;
+// `;
 
 export const Thumb = styled.img`
   width: 100%;
+  transition: filter 100ms linear;
 `;
 
 export const WrapperThumb = styled.figure`
@@ -27,6 +27,16 @@ export const WrapperThumb = styled.figure`
   overflow: hidden;
   cursor: pointer;
   transition: transform 100ms linear;
+
+  & > ${WrapperAvatar} {
+    position: absolute;
+    top: var(--space);
+    left: var(--space);
+    margin-right: 10rem;
+    transform: translateX(calc((100% + var(--space)) * -1));
+    opacity: 0;
+    transition: transform 200ms linear, opacity 100ms linear;
+  }
 `;
 export const Background = styled.div`
   --space: 10rem;
@@ -71,11 +81,12 @@ export const Background = styled.div`
 
     & > ${WrapperThumb} {
       transform: translate(var(--move-space), var(--move-space));
+      filter: brightness(0.6);
 
-      & > ${Avatar} {
+      & > ${WrapperAvatar} {
         transform: translateX(0);
         opacity: 1;
-        transition: transform 100ms 150ms linear, opacity 300ms 100ms linear;
+        transition: transform 100ms 150ms linear, opacity 300ms 150ms linear;
       }
     }
   }

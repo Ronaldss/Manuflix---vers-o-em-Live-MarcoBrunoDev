@@ -39,7 +39,7 @@ function App() {
           src={dev}
           alt="Thumb da minha tela"
           avatar={avatarImg}
-          channelName="Nome do canal"
+          channelName="Teste"
           time="00:02:00"
         />
       </BannerManu>
