@@ -1,6 +1,6 @@
 ##Projeto está em desenvolvimento.
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+[![N|Solid](https://professoramanu.vercel.app/static/media/dev.edb7c45b.png)](https://professoramanu.vercel.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
