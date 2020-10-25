@@ -81,7 +81,9 @@ export const Background = styled.div`
 
     & > ${WrapperThumb} {
       transform: translate(var(--move-space), var(--move-space));
-      filter: brightness(0.6);
+      & > ${Thumb} {
+        filter: brightness(0.6);
+      }
 
       & > ${WrapperAvatar} {
         transform: translateX(0);
