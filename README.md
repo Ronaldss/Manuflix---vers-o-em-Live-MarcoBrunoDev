@@ -1,6 +1,7 @@
-##Projeto está em desenvolvimento.
+## Projeto está em desenvolvimento.
 
-[![N|Solid](https://professoramanu.vercel.app/static/media/dev.edb7c45b.png)](https://professoramanu.vercel.app/)
+[![N|Solid](https://raw.githubusercontent.com/Ronaldss/Manuflix---vers-o-em-Live-MarcoBrunoDev/main/src/assests/img/p1.png)](https://professoramanu.vercel.app/)
+[![N|Solid](https://raw.githubusercontent.com/Ronaldss/Manuflix---vers-o-em-Live-MarcoBrunoDev/main/src/assests/img/p2.png)](https://professoramanu.vercel.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
