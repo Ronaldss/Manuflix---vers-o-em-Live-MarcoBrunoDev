@@ -1,4 +1,4 @@
-## Projeto está em desenvolvimento.
+## Projeto está em desenvolvimento. [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://professoramanu.vercel.app/)
 
 [![N|Solid](https://raw.githubusercontent.com/Ronaldss/Manuflix---vers-o-em-Live-MarcoBrunoDev/main/src/assests/img/p1.png)](https://professoramanu.vercel.app/)
 [![N|Solid](https://raw.githubusercontent.com/Ronaldss/Manuflix---vers-o-em-Live-MarcoBrunoDev/main/src/assests/img/p2.png)](https://professoramanu.vercel.app/)
