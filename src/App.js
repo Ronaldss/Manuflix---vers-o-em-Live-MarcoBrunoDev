@@ -40,6 +40,7 @@ function App() {
           alt="Thumb da minha tela"
           avatar={avatarImg}
           channelName="Tudo de História"
+          title="Os Hebreus e o monoteismo judáico"
           time="00:02:00"
         />
       </BannerManu>
