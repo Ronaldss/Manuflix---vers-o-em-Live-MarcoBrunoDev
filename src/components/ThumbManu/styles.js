@@ -14,6 +14,18 @@ import { WrapperAvatar } from "../AvatarManu/styles";
 //   transition: transform 200ms linear, opacity 100ms linear;
 // `;
 
+export const Time = styled.span`
+  position: absolute;
+  right: var(--space);
+  bottom: var(--space);
+  font-size: 18rem;
+  background: var(--color-black-medium);
+  padding: 2rem 4rem;
+  color: var(--color-gray-light);
+  opacity: 0;
+  transition: opacity 100ms linear;
+`;
+
 export const Title = styled.figcaption`
   position: absolute;
   left: var(--space);
@@ -109,6 +121,11 @@ export const Background = styled.div`
         transform: translateY(0);
         opacity: 1;
         transition: transform 300ms 200ms linear, opacity 300ms 200ms linear;
+      }
+
+      & > ${Time} {
+        opacity: 1;
+        transition: opacity 300ms 200ms linear;
       }
     }
   }
