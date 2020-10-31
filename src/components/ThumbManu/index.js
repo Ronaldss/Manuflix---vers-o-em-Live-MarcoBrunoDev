@@ -1,4 +1,6 @@
+import { checkPropTypes } from "prop-types";
 import React from "react";
+import PropTypes from "prop-types";
 import AvatarManu from "../AvatarManu";
 import { Background, Avatar, Thumb, WrapperThumb, Title, Time } from "./styles";
 
@@ -14,4 +16,9 @@ function ThumbManu({ src, alt, avatar, channelName, title, time }) {
     </Background>
   );
 }
+
+ThumbManu.prototype = {
+  src: PropTypes.string.isRequired,
+};
+
 export default ThumbManu;

@@ -18,6 +18,7 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* width: 1200rem; */
 
   @media (max-width: 800px) {
     justify-content: center;

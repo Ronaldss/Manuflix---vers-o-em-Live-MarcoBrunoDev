@@ -23,4 +23,5 @@ export const BannerManu = styled.section`
   align-items: center;
   max-height: 70cvh;
   height: 100vh;
+  width: 1200rem;
 `;
