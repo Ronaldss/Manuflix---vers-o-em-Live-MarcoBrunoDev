@@ -1,16 +1,16 @@
 import React from "react";
 import LogoManu from "./components/LogoManu/index.js";
 import { HeaderManu, Wrapper } from "./components/HeaderManu";
-import ButtonManu from "./components/ButtonManu/";
+import ButtonManu from "./components/ButtonManu";
 import FooterMana from "./components/FooterManu";
 import LinkManu from "./components/LinkManu";
 import HighlightManu from "./components/HighlightManu";
-import LogoImersao from "./components/LogoImersao/";
+import LogoImersao from "./components/LogoImersao";
 import TagManu from "./components/TagManu";
 import { BannerManu, Text } from "./components/BannerManu";
-import TitleManu from "./components/TitleManu/";
+import TitleManu from "./components/TitleManu";
 import DescriptionManu from "./components/DescriptionManu/index.js";
-import ThumbManu from "./components/ThumbManu/";
+import ThumbManu from "./components/ThumbManu";
 import dev from "./assests/img/dev.png";
 import avatarImg from "./assests/img/avatar.jpg";
 

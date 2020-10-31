@@ -1,7 +1,8 @@
-import styled from "styled-components";
-import container from "../../tools/container";
-import TagManu from "../TagManu";
-import TitleManu from "../TitleManu";
+import styled from 'styled-components';
+import container from '../../tools/container';
+import TagManu from '../TagManu';
+import TitleManu from '../TitleManu';
+
 
 export const Text = styled.div`
   padding-top: 10rem;
