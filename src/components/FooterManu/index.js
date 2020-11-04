@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import LogoManu from "../LogoManu";
+import styled from 'styled-components';
+import LogoManu from '../LogoManu';
 
 const FooterManu = styled.footer`
   display: flex;

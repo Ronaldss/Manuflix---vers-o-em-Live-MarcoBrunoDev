@@ -1,7 +1,7 @@
-import styled from "styled-components";
-import container from "../../tools/container";
-import ButtonManu from "../ButtonManu";
-import LogoManu from "../LogoManu";
+import styled from 'styled-components';
+import container from '../../tools/container';
+import ButtonManu from '../ButtonManu';
+import LogoManu from '../LogoManu';
 
 export const HeaderManu = styled.header`
   padding: 20rem 0;

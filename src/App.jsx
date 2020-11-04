@@ -1,18 +1,18 @@
-import React from "react";
-import LogoManu from "./components/LogoManu/index.js";
-import { HeaderManu, Wrapper } from "./components/HeaderManu";
-import ButtonManu from "./components/ButtonManu";
-import FooterMana from "./components/FooterManu";
-import LinkManu from "./components/LinkManu";
-import HighlightManu from "./components/HighlightManu";
-import LogoImersao from "./components/LogoImersao";
-import TagManu from "./components/TagManu";
-import { BannerManu, Text } from "./components/BannerManu";
-import TitleManu from "./components/TitleManu";
-import DescriptionManu from "./components/DescriptionManu/index.js";
-import ThumbManu from "./components/ThumbManu";
-import dev from "./assests/img/dev.png";
-import avatarImg from "./assests/img/avatar.jpg";
+import React from 'react';
+import LogoManu from './components/LogoManu/index.js';
+import { HeaderManu, Wrapper } from './components/HeaderManu';
+import ButtonManu from './components/ButtonManu';
+import FooterMana from './components/FooterManu';
+import LinkManu from './components/LinkManu';
+import HighlightManu from './components/HighlightManu';
+import LogoImersao from './components/LogoImersao';
+import TagManu from './components/TagManu';
+import { BannerManu, Text } from './components/BannerManu';
+import TitleManu from './components/TitleManu';
+import DescriptionManu from './components/DescriptionManu/index.js';
+import ThumbManu from './components/ThumbManu';
+import dev from './assests/img/dev.png';
+import avatarImg from './assests/img/avatar.jpg';
 
 function App() {
   return (
@@ -49,7 +49,7 @@ function App() {
       <FooterMana>
         <LogoManu />
         <p>
-          Site feito na <HighlightManu>#ImersãoReact</HighlightManu> da{" "}
+          Site feito na
           <LinkManu href="https://alura.com.br">Alura.</LinkManu>
           <a href="https://github.com/Ronaldss/Manuflix---vers-o-em-Live-MarcoBrunoDev">
             <LogoImersao />

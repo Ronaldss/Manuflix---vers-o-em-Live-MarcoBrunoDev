@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const DescriptionManu = styled.p`
   font-size: 18rem;
