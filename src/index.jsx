@@ -5,7 +5,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './styles/settings/colors.css';
 import './styles/reset.css';
 import App from './App';
-import Video from './pages/videos';
+import Video from './pages/video/index';
 
 ReactDOM.render(
   <React.StrictMode>
