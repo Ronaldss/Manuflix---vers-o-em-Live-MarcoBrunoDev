@@ -1,9 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import AvatarManu from '../AvatarManu';
-import { Background, Thumb, WrapperThumb, Title, Time } from './styles';
+import {
+  Background,
+  Thumb,
+  WrapperThumb,
+  Title,
+  Time,
+} from './styles';
 
-function ThumbManu({ src, alt, avatar, channelName, title, time }) {
+function ThumbManu({
+  src, alt, avatar, channelName, title, time,
+}) {
   return (
     <Background>
       <WrapperThumb>

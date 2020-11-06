@@ -19,7 +19,7 @@ function App() {
       <HeaderManu>
         <Wrapper>
           <LogoManu />
-          <ButtonManu as="a" href="/video/new">
+          <ButtonManu as="a" href="/pages/video/">
             Novo Vídeo
           </ButtonManu>
         </Wrapper>

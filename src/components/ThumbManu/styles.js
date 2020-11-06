@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { WrapperAvatar } from "../AvatarManu/styles";
+import styled from 'styled-components';
+import { WrapperAvatar } from '../AvatarManu/styles';
 
 // export const Avatar = styled.img`
 //   position: absolute;
@@ -74,7 +74,7 @@ export const Background = styled.div`
 
   &::before,
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     width: calc(var(--space) * 1.4);
     height: calc(var(--space) * 1.4);

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Channel = styled.figcaption`
   font-size: 20rem;
