@@ -30,7 +30,7 @@ function App() {
           <TitleManu>Os Hebreus e o monoteismo judáico</TitleManu>
           <DescriptionManu>
             Os antigos hebreus foram um povo semítico da região do Levante,
-            localizado no Oriente Médio. O etnônimo também foi utilizado a
+            localizado no Oriente Médio. O etnônimo foi utilizado a
             partir do período romano para se referir aos judeus, um grupo étnico
             e religioso de ascendência hebraica.
           </DescriptionManu>
