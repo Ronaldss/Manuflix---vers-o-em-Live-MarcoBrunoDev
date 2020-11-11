@@ -9,7 +9,7 @@ const FooterManu = styled.footer`
   background-color: var(--color-black-dark);
   color: var(--color-gray-light);
   padding: 20rem 0;
-  border-top: 4px solid var(--color-primary-medium);
+  border-top: 4px solid var(--color-gray-light);
 
   & > ${LogoManu} {
     margin-bottom: 20rem;

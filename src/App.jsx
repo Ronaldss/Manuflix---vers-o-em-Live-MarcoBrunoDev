@@ -27,7 +27,7 @@ function App() {
       <BannerManu>
         <Text>
           <TagManu>Tudo de História</TagManu>
-          <TitleManu>Os Hebreus e o monoteismo judáico</TitleManu>
+          <TitleManu>Bem vindo ao meu canal</TitleManu>
           <DescriptionManu>
             Os antigos hebreus foram um povo semítico da região do Levante,
             localizado no Oriente Médio. O etnônimo foi utilizado a

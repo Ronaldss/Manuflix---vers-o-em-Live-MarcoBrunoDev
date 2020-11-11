@@ -4,10 +4,9 @@ import ButtonManu from '../ButtonManu';
 import LogoManu from '../LogoManu';
 
 export const HeaderManu = styled.header`
-  padding: 20rem 0;
-
   background: var(--color-black-dark);
-  border-bottom: 4px solid var(--color-primary-medium);
+  border-bottom: 4px solid var(--color-gray-light);
+  padding: 20rem 0;
 
   @media (max-width: 800px) {
     padding: 15rem 16rem;

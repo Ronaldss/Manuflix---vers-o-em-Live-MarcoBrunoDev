@@ -10,7 +10,7 @@ const ButtonManu = styled.button`
   color: var(--color-gray-light);
   border: 1px solid var(--color-gray-light);
   border-radius: 4px;
-  font-size: 16rem;
+  font-size: 22rem;
   cursor: pointer;
   text-decoration: none; 
   overflow: hidden;

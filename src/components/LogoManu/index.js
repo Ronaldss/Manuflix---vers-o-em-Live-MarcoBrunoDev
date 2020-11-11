@@ -1,8 +1,9 @@
-import styled from 'styled-components';
-import logo from '../../assests/img/logo.png';
-
-const LogoManu = styled.img.attrs({ src: logo, alt: 'Logo' })`
-  height: 40px;
-`;
-
+import React from 'react';
+import LogoStyle from './styles'
+;
+function LogoManu(){
+  return(
+    <LogoStyle>ManuFlix</LogoStyle>
+  )
+}
 export default LogoManu;
