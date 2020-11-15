@@ -1,7 +1,5 @@
 import React from 'react';
-import LogoManu from './components/LogoManu/index';
-import { HeaderManu, Wrapper } from './components/HeaderManu';
-import ButtonManu from './components/ButtonManu';
+import HeaderOpen from './components/HeaderOpen';
 import FooterMana from './components/FooterManu';
 import LinkManu from './components/LinkManu';
 import LogoImersao from './components/LogoImersao';
@@ -12,18 +10,12 @@ import DescriptionManu from './components/DescriptionManu/index';
 import ThumbManu from './components/ThumbManu';
 import dev from './assests/img/dev.png';
 import avatarImg from './assests/img/avatar.jpg';
+import LogoManu from './components/LogoManu';
 
 function App() {
   return (
     <>
-      <HeaderManu>
-        <Wrapper>
-          <LogoManu />
-          <ButtonManu as="a" href="/pages/video/">
-            Novo Vídeo
-          </ButtonManu>
-        </Wrapper>
-      </HeaderManu>
+      <HeaderOpen />
       <BannerManu>
         <Text>
           <TagManu>Tudo de História</TagManu>
