@@ -1,5 +1,4 @@
 import React from 'react';
-import HeaderOpen from './components/HeaderOpen';
 import FooterMana from './components/FooterManu';
 import LinkManu from './components/LinkManu';
 import LogoImersao from './components/LogoImersao';
@@ -11,6 +10,7 @@ import ThumbManu from './components/ThumbManu';
 import dev from './assests/img/dev.png';
 import avatarImg from './assests/img/avatar.jpg';
 import LogoManu from './components/LogoManu';
+import HeaderOpen from './components/HeaderOpen';
 
 function App() {
   return (

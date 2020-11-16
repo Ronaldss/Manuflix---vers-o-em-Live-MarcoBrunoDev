@@ -16,4 +16,4 @@ function HeaderOpen() {
   );
 }
 
-export default HeaderOpen();
+export default HeaderOpen;
