@@ -1,18 +1,18 @@
 import styled from 'styled-components';
-import LogoManu from '../LogoManu';
+import LogoStyle from '../LogoManu/styles';
 
 const FooterManu = styled.footer`
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 16px;
+  font-size: 22px;
   background-color: var(--color-black-dark);
   color: var(--color-gray-light);
   padding: 20rem 0;
   border-top: 4px solid var(--color-gray-light);
 
-  & > ${LogoManu} {
-    margin-bottom: 20rem;
+  & > ${LogoStyle} {
+    margin-bottom: 15rem;
   }
 `;
 

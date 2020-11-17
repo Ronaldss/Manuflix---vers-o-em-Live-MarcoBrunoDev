@@ -33,7 +33,7 @@ const ButtonManu = styled.button`
   }
   
   &:hover::before{
-    transform: translateX(-30%) scale(1.5) skew(-30deg);
+    transform: translateX(-40%) scale(1.5) skew(-30deg);
   }
 `;
 
