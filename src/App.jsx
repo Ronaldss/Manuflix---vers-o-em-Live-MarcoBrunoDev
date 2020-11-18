@@ -1,7 +1,4 @@
 import React from 'react';
-import FooterMana from './components/FooterManu';
-import LinkManu from './components/LinkManu';
-import LogoImersao from './components/LogoImersao';
 import TagManu from './components/TagManu';
 import { BannerManu, Text } from './components/BannerManu';
 import TitleManu from './components/TitleManu';
@@ -9,8 +6,8 @@ import DescriptionManu from './components/DescriptionManu/index';
 import ThumbManu from './components/ThumbManu';
 import dev from './assests/img/dev.png';
 import avatarImg from './assests/img/avatar.jpg';
-import LogoManu from './components/LogoManu';
 import HeaderOpen from './components/HeaderOpen';
+import FooterOpen from './components/FooterOpen';
 
 function App() {
   return (
@@ -37,16 +34,7 @@ function App() {
           time="00:02:00"
         />
       </BannerManu>
-      <FooterMana>
-        <LogoManu />
-        <p>
-          Site feito na
-          <LinkManu href="https://alura.com.br">Alura.</LinkManu>
-          <a href="https://github.com/Ronaldss/Manuflix---vers-o-em-Live-MarcoBrunoDev">
-            <LogoImersao />
-          </a>
-        </p>
-      </FooterMana>
+      <FooterOpen />
     </>
   );
 }

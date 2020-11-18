@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import LogoStyle from '../LogoManu/styles';
 
-const FooterManu = styled.footer`
+const FooterStyle = styled.footer`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,4 +16,4 @@ const FooterManu = styled.footer`
   }
 `;
 
-export default FooterManu;
+export default FooterStyle;
