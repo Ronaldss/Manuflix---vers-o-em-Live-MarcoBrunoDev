@@ -21,6 +21,7 @@ export const BannerManu = styled.section`
   justify-content: space-between;
   align-items: center;
   max-height: 70cvh;
-  height: 100vh;
+  /* height: 100vh; */
+  padding:50rem 0 50rem 0;
   width: 1200rem;
 `;

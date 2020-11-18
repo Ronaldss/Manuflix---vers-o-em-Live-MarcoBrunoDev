@@ -9,8 +9,8 @@ function FooterOpen() {
     <FooterStyle>
       <LogoManu />
       <p>
-        Site feito na
-        <LinkManu href="https://alura.com.br">Alura.</LinkManu>
+        Site feito na imersão React da
+        <LinkManu href="https://alura.com.br"> Alura.</LinkManu>
         <a href="https://github.com/Ronaldss/Manuflix---vers-o-em-Live-MarcoBrunoDev">
           <LogoImersao />
         </a>
