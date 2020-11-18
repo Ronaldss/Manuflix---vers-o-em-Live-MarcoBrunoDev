@@ -8,6 +8,7 @@ import dev from './assests/img/dev.png';
 import avatarImg from './assests/img/avatar.jpg';
 import HeaderOpen from './components/HeaderOpen';
 import FooterOpen from './components/FooterOpen';
+import SectionManu from './components/SectionManu';
 
 function App() {
   return (
@@ -34,6 +35,10 @@ function App() {
           time="00:02:00"
         />
       </BannerManu>
+      <SectionManu>
+        <TagManu>História é massa!</TagManu>
+        <DescriptionManu>Aqui será uma breve explicação sobre alguma coisa.</DescriptionManu>
+      </SectionManu>
       <FooterOpen />
     </>
   );
