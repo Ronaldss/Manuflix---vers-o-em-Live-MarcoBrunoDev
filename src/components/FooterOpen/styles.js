@@ -6,7 +6,8 @@ const FooterStyle = styled.footer`
   flex-direction: column;
   align-items: center;
   font-size: 22px;
-  background-color: var(--color-black-dark);
+  /* background-color: var(--color-black-dark); */
+  background-color: #130211;
   color: var(--color-gray-light);
   padding: 20rem 0;
   border-top: 4px solid var(--color-gray-light);

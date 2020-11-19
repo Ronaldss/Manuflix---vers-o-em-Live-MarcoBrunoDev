@@ -4,13 +4,20 @@ import DescriptionManu from '../DescriptionManu';
 import TagManu from '../TagManu';
 
 const SectionManu = styled.section`
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top:20rem;
   padding-bottom:20rem;
   ${container};
-  text-align:center;
 
   & > ${TagManu} {
     margin-bottom:40rem;
+  }
+
+  & > ${TagManu}:not(:first-child) {
+    align-self: flex-:start;
   }
 
   & > ${DescriptionManu} {

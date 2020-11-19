@@ -4,7 +4,8 @@ import ButtonManu from '../ButtonManu';
 import LogoManu from '../LogoManu';
 
 export const HeaderManu = styled.header`
-  background: var(--color-black-dark);
+  /* background: var(--color-black-dark); */
+  background-color:#130211;
   border-bottom: 4px solid var(--color-gray-light);
   padding: 20rem 60rem;
 
