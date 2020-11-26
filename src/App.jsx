@@ -9,27 +9,28 @@ import avatarImg from './assests/img/avatar.jpg';
 import HeaderOpen from './components/HeaderOpen';
 import FooterOpen from './components/FooterOpen';
 import SectionManu from './components/SectionManu';
+import CarouselManu from './components/CarouselManu';
 
-// const videos = [
-//   {
-//     src: { dev },
-//     alt: 'Thumb da minha tela',
-//     title: 'Os Hebreus e o monoteismo judáico',
-//     avatar: { avatarImg },
-//     channelName: 'Tudo de História',
-//     time: '00:02:00',
-//     link: 'https://www.youtube.com/channel/UClGc0HpLEG3eJ8e2azhtOKg',
-//   },
-//   {
-//     src: { dev },
-//     alt: 'Thumb da minha tela',
-//     title: 'Os Hebreus e o monoteismo judáico',
-//     avatar: { avatarImg },
-//     channelName: 'Tudo de História',
-//     time: '00:02:00',
-//     link: 'https://www.youtube.com/channel/UClGc0HpLEG3eJ8e2azhtOKg',
-//   },
-// ];
+const videos = [
+  {
+    src: { dev },
+    alt: 'Thumb da minha tela',
+    title: 'Os Hebreus e o monoteismo judáico',
+    avatar: { avatarImg },
+    channelName: 'Tudo de História',
+    time: '00:02:00',
+    link: 'https://www.youtube.com/channel/UClGc0HpLEG3eJ8e2azhtOKg',
+  },
+  {
+    src: { dev },
+    alt: 'Thumb da minha tela',
+    title: 'Os Hebreus e o monoteismo judáico',
+    avatar: { avatarImg },
+    channelName: 'Tudo de História',
+    time: '00:02:00',
+    link: 'https://www.youtube.com/channel/UClGc0HpLEG3eJ8e2azhtOKg',
+  },
+];
 
 function App() {
   return (
@@ -60,7 +61,7 @@ function App() {
         <TagManu>História é massa!</TagManu>
         <DescriptionManu>Aqui será uma breve explicação sobre alguma coisa.</DescriptionManu>
         <TagManu small>https://github.com/Ronaldss</TagManu>
-        {/* <CarouselManu videos={videos} /> */}
+        <CarouselManu videos={videos} />
       </SectionManu>
       <FooterOpen />
     </>

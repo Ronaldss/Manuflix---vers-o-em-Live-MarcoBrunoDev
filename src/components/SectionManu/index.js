@@ -17,7 +17,7 @@ const SectionManu = styled.section`
   }
 
   & > ${TagManu}:not(:first-child) {
-    align-self: flex-:start;
+    align-self: flex-start;
   }
 
   & > ${DescriptionManu} {
