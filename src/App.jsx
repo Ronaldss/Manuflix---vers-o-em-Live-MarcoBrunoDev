@@ -13,19 +13,19 @@ import CarouselManu from './components/CarouselManu';
 
 const videos = [
   {
-    src: { dev },
+    src: dev,
     alt: 'Thumb da minha tela',
     title: 'Os Hebreus e o monoteismo judáico',
-    avatar: { avatarImg },
+    avatar: avatarImg,
     channelName: 'Tudo de História',
     time: '00:02:00',
     link: 'https://www.youtube.com/channel/UClGc0HpLEG3eJ8e2azhtOKg',
   },
   {
-    src: { dev },
+    src: dev,
     alt: 'Thumb da minha tela',
     title: 'Os Hebreus e o monoteismo judáico',
-    avatar: { avatarImg },
+    avatar: avatarImg,
     channelName: 'Tudo de História',
     time: '00:02:00',
     link: 'https://www.youtube.com/channel/UClGc0HpLEG3eJ8e2azhtOKg',
