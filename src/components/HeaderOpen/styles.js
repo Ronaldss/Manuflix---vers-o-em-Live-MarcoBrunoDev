@@ -7,14 +7,14 @@ export const HeaderManu = styled.header`
   /* background: var(--color-black-dark); */
   background-color:#130211;
   border-bottom: 4px solid var(--color-gray-light);
-  padding: 20rem 60rem;
+  padding: 20rem 30rem;
 
   @media (max-width: 800px) {
     padding: 15rem 16rem;
   }
 `;
 export const Wrapper = styled.div`
-  ${container};
+  /* ${container}; */
   display: flex;
   justify-content: space-between;
   align-items: center;

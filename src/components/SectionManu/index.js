@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import container from '../../tools/container';
 import DescriptionManu from '../DescriptionManu';
 import TagManu from '../TagManu';
 
@@ -8,9 +7,7 @@ const SectionManu = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top:20rem;
-  padding-bottom:20rem;
-  ${container};
+  padding: 0 30rem 50rem;
 
   & > ${TagManu} {
     margin-bottom:40rem;
