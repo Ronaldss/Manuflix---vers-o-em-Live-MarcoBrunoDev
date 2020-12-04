@@ -30,6 +30,33 @@ const videos = [
     time: '00:02:00',
     link: 'https://www.youtube.com/channel/UClGc0HpLEG3eJ8e2azhtOKg',
   },
+  {
+    src: dev,
+    alt: 'Thumb da minha tela',
+    title: 'Os Hebreus e o monoteismo judáico',
+    avatar: avatarImg,
+    channelName: 'Tudo de História',
+    time: '00:02:00',
+    link: 'https://www.youtube.com/channel/UClGc0HpLEG3eJ8e2azhtOKg',
+  },
+  {
+    src: dev,
+    alt: 'Thumb da minha tela',
+    title: 'Os Hebreus e o monoteismo judáico',
+    avatar: avatarImg,
+    channelName: 'Tudo de História',
+    time: '00:02:00',
+    link: 'https://www.youtube.com/channel/UClGc0HpLEG3eJ8e2azhtOKg',
+  },
+  {
+    src: dev,
+    alt: 'Thumb da minha tela',
+    title: 'Os Hebreus e o monoteismo judáico',
+    avatar: avatarImg,
+    channelName: 'Tudo de História',
+    time: '00:02:00',
+    link: 'https://www.youtube.com/channel/UClGc0HpLEG3eJ8e2azhtOKg',
+  },
 ];
 
 function App() {

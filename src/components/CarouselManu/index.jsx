@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import CarouselStyle from './styles';
 import ThumbManu from '../ThumbManu';
 
 function CarouselManu({ videos }) {
   return (
-    <div>
+    <CarouselStyle>
       { videos.map(({
         src, alt, title, avatar, channelName, time, link,
       }) => (
@@ -18,7 +19,7 @@ function CarouselManu({ videos }) {
           link={link}
         />
       ))}
-    </div>
+    </CarouselStyle>
   );
 }
 
