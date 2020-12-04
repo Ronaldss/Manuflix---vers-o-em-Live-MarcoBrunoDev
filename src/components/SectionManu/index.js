@@ -7,13 +7,14 @@ const SectionManu = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 30rem 50rem;
+  padding-bottom: 50rem;
 
   & > ${TagManu} {
     margin-bottom:40rem;
   }
 
   & > ${TagManu}:not(:first-child) {
+    margin-left: 30rem;
     align-self: flex-start;
   }
 
