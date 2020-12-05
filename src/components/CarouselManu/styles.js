@@ -6,7 +6,7 @@ export const Right = styled.button`
   position: absolute;
   height:calc(100% - var(--space-top-bottom) * 2);
   width: 50rem;
-  background-color: var(--color-marketing);
+  background-color: var(--color-pixelart);
   right: 0; 
   opacity: 0;
   border:none;
@@ -14,26 +14,14 @@ export const Right = styled.button`
   cursor: pointer;
 
   &::after {
-    /* position: absolute; */
     content: url(${arrow});
-    /* display: inline-block;
-    transform: rotate(-90deg); */
+    display: inline-block;
+    opacity: 1;
+    transform: rotate(-90deg);
   }
-`;
 
-export const Left = styled.button`
-  position: absolute;
-  height:calc(100% - var(--space-top-bottom) * 2);
-  width: 50rem;
-  background-color: red;
-  opacity: 0;
-  border:none;
-  transition: opacity 200ms linear;
-
-  &::after {
-    content: url(${arrow});
-    /* display: inline-block;
-    transform: rotate(-90deg); */
+  &:active::after {
+    transform: rotate(-90deg) translateY(4rem);
   }
 `;
 
@@ -41,8 +29,9 @@ export const CarouselStyle = styled.div`
   --space-top-bottom: 20rem;
   position: relative;
   display:flex;
-  box-sizing: border-box;
+  align-items: center;
   align-self: flex-start;
+  box-sizing: border-box;
   width: 100%;
   padding: var(--space-top-bottom) 30rem;
   overflow: hidden;
@@ -62,7 +51,6 @@ export const CarouselStyle = styled.div`
   & > ${Right}:hover {
     opacity:0.9;
     transform-origin: right center;
-    transform: scaleX(1.2);
   }
 
 `;
