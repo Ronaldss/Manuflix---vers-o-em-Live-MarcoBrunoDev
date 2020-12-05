@@ -18,6 +18,11 @@ export const Right = styled.button`
     display: inline-block;
     opacity: 1;
     transform: rotate(-90deg);
+    transition: transform 50ms linear;
+  }
+
+  &:hover::after {
+    transform: scale(1.2) rotate(-90deg);
   }
 
   &:active::after {
